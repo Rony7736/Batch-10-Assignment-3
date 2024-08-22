@@ -30,7 +30,7 @@
           colors: {
             clifford: '#da373d',
               primary: '#ABEF5F',
-              secondary: 'rgba(171, 239, 95, 0.2)',
+              secondary: '#D4F6AE',
               background: '#F9F9F9',
               backgroundSecondary:'#F4F4F4',
           },
@@ -48,7 +48,7 @@
 
     <header class="bg-background">
 
-        <section class="w-11/12 mx-auto bg-background h-36">
+        <section class="lg:w-[1440px] mx-auto bg-background">
 
             <nav class="py-8">
                 <div class="navbar bg-base-100 bg-background">
@@ -57,23 +57,26 @@
                       <a class="btn btn-ghost text-3xl font-extrabold pl-2"></i>Rinterio</a>
                     </div>
                     <div class="navbar-center hidden lg:flex justify-center">
-                      <ul class="menu menu-horizontal px-1 items-center justify-center">
-                        <li><a class="text-xl">Home</a></li>
-                        <li><a class="text-xl">Services</a></li>
-                        <li><a class="text-xl">Portfolio</a></li>
-                        <li><a class="text-xl">Blogs</a></li>
-                        <li><a class="text-xl">Contact Us</a></li>
+                      <ul class="menu menu-horizontal px-1 items-center justify-center ">
+                        <li><a class="text-xl text-[#494949] font-bold">Home</a></li>
+                        <li><a class="text-xl text-[#737373]">Services</a></li>
+                        <li><a class="text-xl text-[#737373]">Portfolio</a></li>
+                        <li><a class="text-xl text-[#737373]">Blogs</a></li>
+                        <li><a class="text-xl text-[#737373]">Contact Us</a></li>
                       </ul>
                     </div>
                     <div class="navbar-end ">
 
                       <div class="hidden lg:block">
+                        
                         <span class="text-xl"><i class="fa-solid fa-magnifying-glass bg-white p-4 rounded-full"></i></span>
                         <span class="text-xl mx-6"><i class="fa-solid fa-cart-shopping bg-white p-4 rounded-full"></i></span>
 
-                        <a href="">
-                          <button class="btn bg-primary lg:px-6 text-lg text-[#1C1C1C] font-bold rounded-full">Book Consult <i class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] px-3 py-3 text-[#ABEF5F] rounded-full ml-2"></i></button>
-                        </a>
+                        <button class="btn bg-primary lg:px-6  rounded-full h-16">
+                          <a class="text-2xl text-[#1C1C1C] font-bold" href="">Book Consult</a>
+                          <i class="fa-solid fa-arrow-right -rotate-45 bg-[#1C1C1C] px-3 py-3 text-[#ABEF5F] rounded-full ml-2"></i>
+                        </button>
+                        
                       </div>
 
                       <div class="dropdown">
@@ -91,6 +94,27 @@
                     </div>
                   </div>
             </nav>
+
+            <div class="lg:h-[600px] relative -z-1">
+              <div class="absolute bg-white lg:h-[600px] w-10/12 h-[full] right-0 bg-gradient-to-t from-white to-[#F9F9F9] top-28"></div>
+
+            <div class="absolute inset-x-0 top-0 h-16">
+              <div class="flex flex-col justify-center items-center mt-8">
+                <img class="w-8/12 lg:w-4/12" src="./assets/banner.png" alt="">
+  
+              <div class="text-center">
+                <h1 class="text-4xl lg:text-7xl font-black leading-tight mx-auto mb-16 tracking-wide">A barn house of this design has a <br> striking appearance</h1>
+                <p></p>
+  
+                <button class="btn bg-secondary lg:px-8 rounded-full h-16 mb-16">
+                  <a class="text-2xl text-[#1C1C1C] font-bold" href="">View Details</a>
+                  <i class="fa-solid fa-arrow-right -rotate-45 bg-primary px-3 py-3 text-black rounded-full ml-2"></i>
+                </button>
+              </div>
+              </div>
+            </div>
+
+            </div>
 
         </section>
 
